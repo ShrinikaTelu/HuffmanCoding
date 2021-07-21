@@ -3,6 +3,8 @@
 
 # In[27]:
 
+# Practice Huffman Coding implementation in python
+# Shrinika Telu
 
 String='BCAADDDCCACACAC'
 
@@ -59,7 +61,5 @@ print("____________________")
 
 for (char,frequencies) in freq:
     print('%-4r | %12s' % (char,huffmancode[char]))
-print()
-print()
-print("      _Shrinika Telu")
+
 
