@@ -4,6 +4,7 @@
 # In[27]:
 
 # Practice Huffman Coding implementation in python
+# Compress and Decompress a String
 # Shrinika Telu
 
 String='BCAADDDCCACACAC'
