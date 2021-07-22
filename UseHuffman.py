@@ -7,17 +7,17 @@
 from huffman import HuffmanCoding
 import sys
 
-path = "sample.txt"
+path = "/Users/shrinika/Documents/HuffmanCoding_Project/sample.txt"
 
 h = HuffmanCoding(path)
+
 print('Compressing file , please wait !')
 
-output_path = h.compress()
-print("Compressed file path: " + output_path)
+com_path = h.compress()
+print("Compressed file path: " + com_path)
 
-print()
 print('Decompressing file , please wait !')
 
-decom_path = h.decompress(output_path)
+decom_path = h.decompress(com_path)
 print("Decompressed file path: " + decom_path)
 
