@@ -12,32 +12,32 @@ Huffman Coding
 
 1 --> Making Frequency Dictionary
 
-2 --> Constructing Heap with the help of Frequency Dictionary 
+2 --> Constructing (priority Queue) MinHeap with the help of Frequency Dictionary 
 
 3 --> Constructing Binary Tree out of heap
 
-4 --> Build/Generate Codes
+4 --> Build/Generate Codes to characters
 
-5 --> Encoding Text
+5 --> Encoding Text (replacing character with its code)
 
-6 --> Padding Encoding Text
+6 --> Padding Encoding Text (if overall lenght of bit streams is not multiple of 8, add some padding to text)
 
-7 --> Encoding Text Convert Into Bytes
+7 --> Encoding Text Convert Into Bytes (store padded information in 8bits)
 
-8 --> Compressing File
+8 --> Compressing File (write result to an output binary file)
 
 __________________________________________
 
 OUTPUT_ DECOMPRESSING TEXT
 
+                     (read binary file)
 9 --> Remove Padding
 
-10 --> Decoding Text
+10 --> Decoding Text (read bits replace valid code with character)
 
-11 --> Decompress File
+11 --> Decompress File (save decoded data into output file)
 
 '''
-
 
 import heapq
 import os
